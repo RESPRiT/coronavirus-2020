@@ -22,7 +22,7 @@ import json
 
 # ------------ HYPERPARAMETERS -------------
 BASE_PATH = '../COVID-19/csse_covid_19_data/'
-N_NEIGHBORS = 5
+N_NEIGHBORS = 260 # max neighbors for the US
 MIN_CASES = 1000
 NORMALIZE = True
 # ------------------------------------------
@@ -30,7 +30,7 @@ NORMALIZE = True
 confirmed = os.path.join(
     BASE_PATH, 
     'csse_covid_19_time_series',
-    'time_series_covid19_confirmed_global.csv')
+    'time_series_covid19_confirmed_global_single.csv')
 confirmed = data.load_csv_data(confirmed)
 features = []
 targets = []
@@ -45,9 +45,10 @@ for val in np.unique(confirmed["Country/Region"]):
 features = np.concatenate(features, axis=0)
 targets = np.concatenate(targets, axis=0)
 predictions = {}
+val = "US"
 
 for _dist in ['minkowski', 'manhattan']:
-    for val in np.unique(confirmed["Country/Region"]):
+    for i in range(1, N_NEIGHBORS):
         # test data
         df = data.filter_by_attribute(
             confirmed, "Country/Region", val)
@@ -58,7 +59,6 @@ for _dist in ['minkowski', 'manhattan']:
         mask = targets[:, 1] != val
         tr_features = features[mask]
         tr_targets = targets[mask][:, 1]
-        print(tr_targets)
 
         above_min_cases = tr_features.sum(axis=-1) > MIN_CASES
         tr_features = tr_features[above_min_cases]
@@ -66,12 +66,8 @@ for _dist in ['minkowski', 'manhattan']:
             tr_features = tr_features / tr_features.sum(axis=-1, keepdims=True)
         tr_targets = tr_targets[above_min_cases]
 
-        # Testing N_NEIGHBORS hypothesis
-        # N_NEIGHBORS = np.size(tr_targets)
-        # print(N_NEIGHBORS)
-
         # train knn
-        knn = KNeighborsClassifier(n_neighbors=N_NEIGHBORS, metric=_dist)
+        knn = KNeighborsClassifier(n_neighbors=i, metric=_dist)
         knn.fit(tr_features, tr_targets)
 
         # predict
@@ -79,9 +75,9 @@ for _dist in ['minkowski', 'manhattan']:
         # nearest country to this one based on trajectory
         label = knn.predict(cases)
         
-        if val not in predictions:
-            predictions[val] = {}
-        predictions[val][_dist] = label.tolist()
+        if i not in predictions:
+            predictions[i] = {}
+        predictions[i][_dist] = label.tolist()
 
-with open('results/knn_raw.json', 'w') as f:
+with open('results/knn_US.json', 'w') as f:
     json.dump(predictions, f, indent=4)

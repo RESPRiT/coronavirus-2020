@@ -6,6 +6,10 @@ def load_csv_data(path_to_csv):
     df = pd.read_csv(path_to_csv)
     return df
 
+def load_json_data(path_to_json):
+    df = pd.read_json(path_to_json)
+    return df
+
 def filter_by_attribute(df, attribute, value):
     return df[df[attribute] == value]
 

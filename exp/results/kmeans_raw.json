@@ -1,0 +1,782 @@
+{
+    "Afghanistan": [
+        3
+    ],
+    "Albania": [
+        3
+    ],
+    "Alberta": [
+        1
+    ],
+    "Algeria": [
+        3
+    ],
+    "Andorra": [
+        1
+    ],
+    "Angola": [
+        0
+    ],
+    "Anhui": [
+        2
+    ],
+    "Antigua and Barbuda": [
+        3
+    ],
+    "Argentina": [
+        0
+    ],
+    "Armenia": [
+        3
+    ],
+    "Aruba": [
+        0
+    ],
+    "Australian Capital Territory": [
+        1
+    ],
+    "Austria": [
+        1
+    ],
+    "Azerbaijan": [
+        3
+    ],
+    "Bahamas": [
+        0
+    ],
+    "Bahrain": [
+        3
+    ],
+    "Bangladesh": [
+        3
+    ],
+    "Barbados": [
+        1
+    ],
+    "Beijing": [
+        2
+    ],
+    "Belarus": [
+        3
+    ],
+    "Belgium": [
+        1
+    ],
+    "Belize": [
+        0
+    ],
+    "Benin": [
+        3
+    ],
+    "Bermuda": [
+        1
+    ],
+    "Bhutan": [
+        3
+    ],
+    "Bolivia": [
+        3
+    ],
+    "Bonaire, Sint Eustatius and Saba": [
+        1
+    ],
+    "Bosnia and Herzegovina": [
+        3
+    ],
+    "Botswana": [
+        0
+    ],
+    "Brazil": [
+        3
+    ],
+    "British Columbia": [
+        1
+    ],
+    "British Virgin Islands": [
+        1
+    ],
+    "Brunei": [
+        1
+    ],
+    "Bulgaria": [
+        3
+    ],
+    "Burkina Faso": [
+        1
+    ],
+    "Burma": [
+        1
+    ],
+    "Burundi": [
+        3
+    ],
+    "Cabo Verde": [
+        3
+    ],
+    "Cambodia": [
+        1
+    ],
+    "Cameroon": [
+        3
+    ],
+    "Cayman Islands": [
+        1
+    ],
+    "Central African Republic": [
+        3
+    ],
+    "Chad": [
+        3
+    ],
+    "Channel Islands": [
+        1
+    ],
+    "Chile": [
+        3
+    ],
+    "Chongqing": [
+        2
+    ],
+    "Colombia": [
+        0
+    ],
+    "Comoros": [
+        3
+    ],
+    "Congo (Brazzaville)": [
+        3
+    ],
+    "Congo (Kinshasa)": [
+        3
+    ],
+    "Costa Rica": [
+        0
+    ],
+    "Cote d'Ivoire": [
+        3
+    ],
+    "Croatia": [
+        1
+    ],
+    "Cuba": [
+        1
+    ],
+    "Curacao": [
+        1
+    ],
+    "Cyprus": [
+        1
+    ],
+    "Czechia": [
+        1
+    ],
+    "Denmark": [
+        1
+    ],
+    "Diamond Princess": [
+        2
+    ],
+    "Djibouti": [
+        3
+    ],
+    "Dominica": [
+        1
+    ],
+    "Dominican Republic": [
+        3
+    ],
+    "Ecuador": [
+        3
+    ],
+    "Egypt": [
+        3
+    ],
+    "El Salvador": [
+        0
+    ],
+    "Equatorial Guinea": [
+        3
+    ],
+    "Eritrea": [
+        3
+    ],
+    "Estonia": [
+        1
+    ],
+    "Eswatini": [
+        0
+    ],
+    "Ethiopia": [
+        0
+    ],
+    "Falkland Islands (Malvinas)": [
+        1
+    ],
+    "Faroe Islands": [
+        1
+    ],
+    "Fiji": [
+        1
+    ],
+    "Finland": [
+        1
+    ],
+    "France": [
+        1
+    ],
+    "French Guiana": [
+        3
+    ],
+    "French Polynesia": [
+        1
+    ],
+    "Fujian": [
+        2
+    ],
+    "Gabon": [
+        3
+    ],
+    "Gambia": [
+        0
+    ],
+    "Gansu": [
+        2
+    ],
+    "Georgia": [
+        1
+    ],
+    "Germany": [
+        1
+    ],
+    "Ghana": [
+        3
+    ],
+    "Gibraltar": [
+        1
+    ],
+    "Grand Princess": [
+        1
+    ],
+    "Greece": [
+        1
+    ],
+    "Greenland": [
+        1
+    ],
+    "Grenada": [
+        1
+    ],
+    "Guadeloupe": [
+        1
+    ],
+    "Guangdong": [
+        2
+    ],
+    "Guangxi": [
+        2
+    ],
+    "Guatemala": [
+        0
+    ],
+    "Guinea": [
+        3
+    ],
+    "Guinea-Bissau": [
+        3
+    ],
+    "Guizhou": [
+        2
+    ],
+    "Guyana": [
+        3
+    ],
+    "Hainan": [
+        2
+    ],
+    "Haiti": [
+        3
+    ],
+    "Hebei": [
+        2
+    ],
+    "Heilongjiang": [
+        2
+    ],
+    "Henan": [
+        2
+    ],
+    "Holy See": [
+        1
+    ],
+    "Honduras": [
+        3
+    ],
+    "Hong Kong": [
+        3
+    ],
+    "Hubei": [
+        2
+    ],
+    "Hunan": [
+        2
+    ],
+    "Hungary": [
+        1
+    ],
+    "Iceland": [
+        1
+    ],
+    "India": [
+        0
+    ],
+    "Indonesia": [
+        3
+    ],
+    "Inner Mongolia": [
+        1
+    ],
+    "Iran": [
+        1
+    ],
+    "Iraq": [
+        0
+    ],
+    "Ireland": [
+        1
+    ],
+    "Isle of Man": [
+        1
+    ],
+    "Israel": [
+        3
+    ],
+    "Italy": [
+        1
+    ],
+    "Jamaica": [
+        1
+    ],
+    "Japan": [
+        3
+    ],
+    "Jiangsu": [
+        2
+    ],
+    "Jiangxi": [
+        2
+    ],
+    "Jilin": [
+        2
+    ],
+    "Jordan": [
+        1
+    ],
+    "Kazakhstan": [
+        3
+    ],
+    "Kenya": [
+        0
+    ],
+    "Korea, South": [
+        1
+    ],
+    "Kosovo": [
+        0
+    ],
+    "Kuwait": [
+        3
+    ],
+    "Kyrgyzstan": [
+        0
+    ],
+    "Laos": [
+        1
+    ],
+    "Latvia": [
+        1
+    ],
+    "Lebanon": [
+        0
+    ],
+    "Lesotho": [
+        0
+    ],
+    "Liaoning": [
+        2
+    ],
+    "Liberia": [
+        3
+    ],
+    "Libya": [
+        0
+    ],
+    "Liechtenstein": [
+        1
+    ],
+    "Lithuania": [
+        1
+    ],
+    "Luxembourg": [
+        1
+    ],
+    "MS Zaandam": [
+        1
+    ],
+    "Macau": [
+        2
+    ],
+    "Madagascar": [
+        0
+    ],
+    "Malawi": [
+        0
+    ],
+    "Malaysia": [
+        1
+    ],
+    "Maldives": [
+        3
+    ],
+    "Mali": [
+        3
+    ],
+    "Malta": [
+        1
+    ],
+    "Manitoba": [
+        1
+    ],
+    "Martinique": [
+        1
+    ],
+    "Mauritania": [
+        3
+    ],
+    "Mauritius": [
+        1
+    ],
+    "Mayotte": [
+        3
+    ],
+    "Mexico": [
+        3
+    ],
+    "Moldova": [
+        3
+    ],
+    "Monaco": [
+        1
+    ],
+    "Mongolia": [
+        3
+    ],
+    "Montenegro": [
+        0
+    ],
+    "Montserrat": [
+        1
+    ],
+    "Morocco": [
+        3
+    ],
+    "Mozambique": [
+        0
+    ],
+    "Namibia": [
+        0
+    ],
+    "Nepal": [
+        3
+    ],
+    "Netherlands": [
+        1
+    ],
+    "New Brunswick": [
+        1
+    ],
+    "New Caledonia": [
+        1
+    ],
+    "New South Wales": [
+        1
+    ],
+    "New Zealand": [
+        1
+    ],
+    "Newfoundland and Labrador": [
+        1
+    ],
+    "Nicaragua": [
+        3
+    ],
+    "Niger": [
+        1
+    ],
+    "Nigeria": [
+        3
+    ],
+    "Ningxia": [
+        2
+    ],
+    "North Macedonia": [
+        3
+    ],
+    "Northern Territory": [
+        1
+    ],
+    "Norway": [
+        1
+    ],
+    "Nova Scotia": [
+        1
+    ],
+    "Oman": [
+        3
+    ],
+    "Ontario": [
+        1
+    ],
+    "Pakistan": [
+        3
+    ],
+    "Panama": [
+        3
+    ],
+    "Papua New Guinea": [
+        0
+    ],
+    "Paraguay": [
+        0
+    ],
+    "Peru": [
+        3
+    ],
+    "Philippines": [
+        0
+    ],
+    "Poland": [
+        3
+    ],
+    "Portugal": [
+        1
+    ],
+    "Prince Edward Island": [
+        1
+    ],
+    "Qatar": [
+        3
+    ],
+    "Qinghai": [
+        2
+    ],
+    "Quebec": [
+        1
+    ],
+    "Queensland": [
+        1
+    ],
+    "Reunion": [
+        1
+    ],
+    "Romania": [
+        3
+    ],
+    "Russia": [
+        3
+    ],
+    "Rwanda": [
+        3
+    ],
+    "Saint Barthelemy": [
+        1
+    ],
+    "Saint Kitts and Nevis": [
+        1
+    ],
+    "Saint Lucia": [
+        1
+    ],
+    "Saint Vincent and the Grenadines": [
+        3
+    ],
+    "San Marino": [
+        1
+    ],
+    "Sao Tome and Principe": [
+        3
+    ],
+    "Saskatchewan": [
+        1
+    ],
+    "Saudi Arabia": [
+        3
+    ],
+    "Senegal": [
+        3
+    ],
+    "Serbia": [
+        3
+    ],
+    "Seychelles": [
+        3
+    ],
+    "Shaanxi": [
+        2
+    ],
+    "Shandong": [
+        2
+    ],
+    "Shanghai": [
+        2
+    ],
+    "Shanxi": [
+        2
+    ],
+    "Sichuan": [
+        2
+    ],
+    "Sierra Leone": [
+        3
+    ],
+    "Singapore": [
+        1
+    ],
+    "Sint Maarten": [
+        1
+    ],
+    "Slovakia": [
+        1
+    ],
+    "Slovenia": [
+        1
+    ],
+    "Somalia": [
+        3
+    ],
+    "South Africa": [
+        0
+    ],
+    "South Australia": [
+        1
+    ],
+    "South Sudan": [
+        3
+    ],
+    "Spain": [
+        1
+    ],
+    "Sri Lanka": [
+        3
+    ],
+    "St Martin": [
+        1
+    ],
+    "Sudan": [
+        3
+    ],
+    "Suriname": [
+        0
+    ],
+    "Sweden": [
+        3
+    ],
+    "Switzerland": [
+        1
+    ],
+    "Syria": [
+        0
+    ],
+    "Taiwan*": [
+        1
+    ],
+    "Tajikistan": [
+        3
+    ],
+    "Tanzania": [
+        1
+    ],
+    "Tasmania": [
+        1
+    ],
+    "Thailand": [
+        1
+    ],
+    "Tianjin": [
+        2
+    ],
+    "Timor-Leste": [
+        1
+    ],
+    "Togo": [
+        3
+    ],
+    "Trinidad and Tobago": [
+        1
+    ],
+    "Tunisia": [
+        1
+    ],
+    "Turkey": [
+        1
+    ],
+    "Turks and Caicos Islands": [
+        0
+    ],
+    "US": [
+        3
+    ],
+    "Uganda": [
+        3
+    ],
+    "Ukraine": [
+        3
+    ],
+    "United Arab Emirates": [
+        3
+    ],
+    "United Kingdom": [
+        1
+    ],
+    "Uruguay": [
+        1
+    ],
+    "Uzbekistan": [
+        0
+    ],
+    "Venezuela": [
+        0
+    ],
+    "Victoria": [
+        0
+    ],
+    "Vietnam": [
+        1
+    ],
+    "West Bank and Gaza": [
+        0
+    ],
+    "Western Sahara": [
+        1
+    ],
+    "Xinjiang": [
+        0
+    ],
+    "Yemen": [
+        3
+    ],
+    "Yukon": [
+        1
+    ],
+    "Yunnan": [
+        2
+    ],
+    "Zambia": [
+        0
+    ],
+    "Zhejiang": [
+        2
+    ],
+    "Zimbabwe": [
+        0
+    ]
+}

@@ -22,13 +22,17 @@ plt.style.use('fivethirtyeight')
 
 # ------------ HYPERPARAMETERS -------------
 BASE_PATH = '../COVID-19/csse_covid_19_data/'
+FILE_NAME = 'time_series_covid19_confirmed_global_single.csv'
+EXP_PATH = './results/'
+CLUSTER = 3
 MIN_CASES = 1000
+NORMALIZE = True
 # ------------------------------------------
 
 confirmed = os.path.join(
     BASE_PATH, 
     'csse_covid_19_time_series',
-    'time_series_19-covid-Confirmed.csv')
+    FILE_NAME)
 confirmed = data.load_csv_data(confirmed)
 features = []
 targets = []
@@ -40,7 +44,14 @@ NUM_COLORS = 0
 LINE_STYLES = ['solid', 'dashed', 'dotted']
 NUM_STYLES = len(LINE_STYLES)
 
-for val in np.unique(confirmed["Country/Region"]):
+country_clusters = os.path.join(
+    EXP_PATH,
+    'kmeans_raw.json')
+country_clusters = data.load_json_data(country_clusters)
+print(country_clusters)
+
+countries = np.unique(confirmed["Country/Region"])
+for val in countries:
     df = data.filter_by_attribute(
         confirmed, "Country/Region", val)
     cases, labels = data.get_cases_chronologically(df)
@@ -53,13 +64,16 @@ colors = [cm(i) for i in np.linspace(0, 1, NUM_COLORS)]
 legend = []
 handles = []
 
-for val in np.unique(confirmed["Country/Region"]):
+for val in countries:
     df = data.filter_by_attribute(
         confirmed, "Country/Region", val)
     cases, labels = data.get_cases_chronologically(df)
     cases = cases.sum(axis=0)
 
-    if cases.sum() > MIN_CASES:
+    if (cases.sum() > MIN_CASES) and (country_clusters[val][0] == CLUSTER):
+        print(val)
+        if NORMALIZE:
+            cases = cases / cases.sum(axis=-1)
         i = len(legend)
         lines = ax.plot(cases, label=labels[0,1])
         handles.append(lines[0])
@@ -73,4 +87,4 @@ ax.set_xlabel("Time (days since Jan 22, 2020)")
 ax.set_yscale('log')
 ax.legend(handles, legend, bbox_to_anchor=(0., 1.02, 1., .102), loc=3, ncol=4)
 plt.tight_layout()
-plt.savefig('results/cases_by_country.png')
+plt.savefig('results/cases_by_country_cluster' + str(CLUSTER) + '.png')
